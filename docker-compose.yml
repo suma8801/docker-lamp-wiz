@@ -28,8 +28,8 @@ services:
     ports:
       - "127.0.0.1:${HOST_MYSQL_PORT}:3306"
     volumes:
-      - ./data/mysql:/var/lib/mysql
-      - ./log/mysql:/var/log/mysql
+      - ../mysql/data:/var/lib/mysql
+      - ../mysql/log:/var/log/mysql
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
