@@ -1,7 +1,7 @@
 # Simple Docker LAMP Stack
 
 このリポジトリは、https://github.com/akospasztor/docker-lamp/　を元に
-wizardプロジェクトで使いやすい様に変更しました。
+自分が使いやすい様に変更しました。
 
 ## 主な変更点は、
 .env
